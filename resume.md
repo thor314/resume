@@ -34,7 +34,7 @@ Stark](https://github.com/thor314/pebble-stark).
 Won the Zuzalu 2023 Hackathon for [partial implementation](https://github.com/thor314/ccs-hack) of the CCS generalized arithmetization scheme, with Waylon Jepsen and Shumo Chu.
 
 ### <span>Proofs Arguments and Zero Knowledge Study group Co-runner</span> <span> Dec 2021-Dec 2022</span>
-Initiated and co-ran the Zero Knowledge [cryptography study group](https://github.com/thor314/pazk) with the good [Dr. Justin Thaler](https://people.cs.georgetown.edu/jthaler/), which you can find through [the zkHack discord server](discord.com/invite/tHXyEbEqVN).
+Initiated and co-ran the Zero Knowledge [cryptography study group](https://github.com/thor314/pazk) with the good [Dr. Justin Thaler](https://people.cs.georgetown.edu/jthaler/), which you can find through [the zkHack discord server](https://zkhack.dev/).
 
 ### <span>ZK Hack Co-organizer</span> <span>Apr 2023, Nov 2023</span>
 Co-organized [ZK Hack](https://zkhack.dev/) [Lisbon](https://www.zklisbon.com/) and [ZK Hack Istanbul](https://www.zkistanbul.com/), a series of zero-knowledge hackathons.
