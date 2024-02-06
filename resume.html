@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Thor Kamphefner</title>
+<style>
+body {
+    color: #000000;
+    background: #EEEEEE;
+    font: 1.1em "Times New Roman";
+    line-height: 1.2;
+    margin: 40px 0;
+}
+#resume {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px 60px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 2px 2px 4px #AAAAAA;
+    -webkit-box-shadow: 2px 2px 4px #AAAAAA;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    border-bottom: 1px solid #000000;
+    text-transform: uppercase;
+    font-size: 130%;
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+h3 {
+    font-size: 100%;
+    margin: 0.8em 0 0.3em 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+p {
+    margin: 0 0 0.5em 0;
+    padding: 0;
+    }
+ul {
+    padding: 0;
+    margin: 0 1.5em;
+    }
+/* ul immediately after h1 = contact list */
+h1 + ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+h1 + ul > li {
+    display: inline;
+    white-space: pre;
+    list-style-type: none;
+}
+h1 + ul > li:after {
+    content: "  \2022  ";
+}
+h1 + ul > li:last-child:after {
+    content: "";
+}
+/* p immediately after contact list = summary */
+h1 + ul + p {
+    margin: 1em 0;
+}
+@media print {
+    body {
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+        background: none;
+    }
+    #resume {
+        margin: 0;
+        padding: 0;
+        border: 0px;
+        background: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    /* Do not underline abbr tags in PDF */
+    abbr {
+        text-decoration: none;
+        font-variant: none;
+    }
+    /* Make links black in PDF */
+    /* Move this outside the print block to apply this in HTML too */
+    a, a:link, a:visited, a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+}
+@page {
+    /* Change margins and paper size of PDF */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
+    size: letter;
+    margin: 0.5in 0.8in;
+}
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 16pt;
+        margin: 0;
+        padding: 0;
+        background: #FFFFFF !important;
+    }
+    #resume {
+        margin: 0;
+        padding: 1em;
+        border: 0px;
+        background: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+}
+
+</style>
+</head>
+<body>
+<div id="resume">
+<!-- The (first) h1 will be used as the <title> of the HTML page -->
+<h1>Thor Kamphefner</h1>
+<!-- The unordered list immediately after the h1 will be formatted on a single
+line. It is intended to be used for contact details -->
+<ul>
+<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#104;&#111;&#114;&#99;&#107;&#64;&#112;&#109;&#46;&#109;&#101;">&#116;&#104;&#111;&#114;&#99;&#107;&#64;&#112;&#109;&#46;&#109;&#101;</a></li>
+<li><a href="https://github.com/thor314">github</a></li>
+<li><a href="https://x.com/cryptograthor">twitter</a></li>
+<li><a href="https://linktr.ee/cryptograthor">linktree</a></li>
+<li>San Francisco, CA</li>
+</ul>
+<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
+is intended to be used for a short summary. -->
+<p>I am an zero knowledge cryptography engineer and educator. 
+My work tends to alternate between implementations of novel zero-knowledge proof systems, such as Protostar and STARKs, and educational initiatives, such as the Uncloak Cryptography Engineering course, a 16 module course on general cryptography engineering practices. 
+I also co-organize industry events, most notably ZK Hack Hackathon series.</p>
+<h2>Experience</h2>
+<h3><span>Implementing zk-news</span> <span>Jan 2024-Present</span></h3>
+<p>Implementing a hacker-news style discussion board, in coordination with the ZK Hack Discord group, intended to
+complement the ZK Mesh newsletter, and facilitate cross-domain communication in zero knowledge. 
+Initial release expected March 2024.</p>
+<h3><span>Stone Prover Reimplementation Grantee</span> <span>Nov 2023-Present</span></h3>
+<p>In September 2023, Starkware open-sourced their proving library, the Stone Prover, a C++ library for generating FRI
+proofs over AIR traces generated from Cairo Assembly (CASM) programs. In the interest of developing an option for
+client-side proving, I am currently developing a minified Rust re-implementation of the Stone Prover, called <a href="https://github.com/thor314/pebble-stark">Pebble
+Stark</a>.</p>
+<h3><span>Uncloak Cryptography</span> <span>Nov 2022-Apr 2023</span></h3>
+<p><a href="https://github.com/thor314/uncloak">Uncloak</a> is a fledgling cryptography wiki and cryptography engineering course, aiming to increase the accessibility of cryptography engineering as a discipline for interested software engineers, supported under a grant by the Ethereum Foundation.</p>
+<h3><span>Zuzalu Hackathon Winner</span> <span> Apr 2023</span></h3>
+<p>Won the Zuzalu 2023 Hackathon for <a href="https://github.com/thor314/ccs-hack">partial implementation</a> of the CCS generalized arithmetization scheme, with Waylon Jepsen and Shumo Chu.</p>
+<h3><span>Proofs Arguments and Zero Knowledge Study group Co-runner</span> <span> Dec 2021-Dec 2022</span></h3>
+<p>Initiated and co-ran the Zero Knowledge <a href="https://github.com/thor314/pazk">cryptography study group</a> with the good <a href="https://people.cs.georgetown.edu/jthaler/">Dr. Justin Thaler</a>, which you can find through <a href="discord.com/invite/tHXyEbEqVN">the zkHack discord server</a>.</p>
+<h3><span>ZK Hack Co-organizer</span> <span>Apr 2023, Nov 2023</span></h3>
+<p>Co-organized <a href="https://zkhack.dev/">ZK Hack</a> <a href="https://www.zklisbon.com/">Lisbon</a> and <a href="https://www.zkistanbul.com/">ZK Hack Istanbul</a>, a series of zero-knowledge hackathons.</p>
+<h3><span>Lead Cryptography Engineer at Entropy Cryptography</span> <span>Nov 2021-Nov 2022</span></h3>
+<p>Led cryptography engineering at <a href="https://entropy.xyz/">entropy</a>, a trustless, chain-agnostic asset custodian, built with threshold signatures, and the Substrate blockchain building framework. Designed and implemented the <a href="https://eprint.iacr.org/2019/114.pdf">GG20</a> threshold signature scheme.</p>
+<h3><span>Paper coauthor: Combining GHOST and Casper</span> <span>Dec 2018-July 2019</span></h3>
+<p>coauthored a mathematical security paper with my mentor Yan Zhang analyzing the security and liveness properties of the Ethereum 2.0 beacon chain consensus protocol. <a href="https://arxiv.org/abs/2003.03052">Paper Link</a>.</p>
+<hr />
+<ul>
+<li>Education: San Jose State University, BA Applied Mathematics: 2015 &ndash; 2020</li>
+<li><a href="https://drive.google.com/drive/folders/1_veCRNOIpAkckS_tHEDUY17-LW9s2ZU1?usp=drive_link">Assorted talks</a></li>
+</ul></div>
+</body>
+</html>
