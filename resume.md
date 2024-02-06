@@ -11,14 +11,14 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-I am an zero knowledge cryptography engineer and educator. 
-My work tends to alternate between implementations of novel zero-knowledge proof systems, such as Protostar and STARKs, and educational initiatives, such as the Uncloak Cryptography Engineering course, a 16 module course on general cryptography engineering practices. 
+I am an zero knowledge cryptography engineer and educator.
+My work tends to alternate between implementations of novel zero-knowledge proof systems, such as Protostar and STARKs, and educational initiatives, such as the Uncloak Cryptography Engineering course, a 16 module course on general cryptography engineering practices.
 I also co-organize industry events, most notably ZK Hack Hackathon series.
 
 ## Experience
 ### <span>Implementing zk-news</span> <span>Jan 2024-Present</span>
 Implementing a hacker-news style discussion board, in coordination with the ZK Hack Discord group, intended to
-complement the ZK Mesh newsletter, and facilitate cross-domain communication in zero knowledge. 
+complement the ZK Mesh newsletter, and facilitate cross-domain communication in zero knowledge.
 Initial release expected March 2024.
 
 ### <span>Stone Prover Reimplementation Grantee</span> <span>Nov 2023-Present</span>
@@ -49,4 +49,3 @@ coauthored a mathematical security paper with my mentor Yan Zhang analyzing the 
 
 - Education: San Jose State University, BA Applied Mathematics: 2015 -- 2020
 - [Assorted talks](https://drive.google.com/drive/folders/1_veCRNOIpAkckS_tHEDUY17-LW9s2ZU1?usp=drive_link)
-
